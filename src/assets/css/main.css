@@ -1,0 +1,21 @@
+@import './base.css';
+
+.main,
+.container {
+    max-width: 576px;
+    margin: 0 auto;
+}
+
+.main {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.main-content {
+    padding-bottom: 55px;
+}
+
+.platform-ios .main-content {
+    padding-bottom: 85px;
+}
+
